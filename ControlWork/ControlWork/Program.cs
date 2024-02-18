@@ -9,11 +9,24 @@ using System.Collections.Specialized;
 
 string[] words = ["Hello", "2", "world", ":-)"];
 
-//string[] words = array;
+
 int count = 0;
 for (int i = 0; i < words.Length; i++)
 {
     string word = words[i];
     if (word.Length <= 3) 
     count++;
+}
+
+string[] words2 = new string[count];
+int j = 0;
+for (int i = 0;i < words.Length; i++) 
+{
+    string word = words[i];
+    if (word.Length <= 3)
+    {
+        words2[j] = word;
+        j++;
+    }
+       
 }
