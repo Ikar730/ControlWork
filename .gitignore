@@ -1,0 +1,10 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/ControlWork/.vs/ControlWork/DesignTimeBuild/.dtbcache.v2
+/ControlWork/.vs/ControlWork/v17/.futdcache.v2
+/ControlWork/.vs/ControlWork/FileContentIndex/1e15bfae-1416-4abf-87ae-5f3ca515bdfc.vsidx
+*.suo
+*.bin
+/ControlWork/ControlWork/obj
