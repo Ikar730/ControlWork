@@ -8,25 +8,30 @@
 using System.Collections.Specialized;
 
 string[] words = ["Hello", "2", "world", ":-)"];
-
-
-int count = 0;
-for (int i = 0; i < words.Length; i++)
+string[]GetLesserThenThree(string[] words)
 {
-    string word = words[i];
-    if (word.Length <= 3) 
-    count++;
-}
-
-string[] words2 = new string[count];
-int j = 0;
-for (int i = 0;i < words.Length; i++) 
-{
-    string word = words[i];
-    if (word.Length <= 3)
+    int count = 0;
+    for (int i = 0; i < words.Length; i++)
     {
-        words2[j] = word;
-        j++;
+        string word = words[i];
+        if (word.Length <= 3)
+            count++;
     }
-       
+
+   string[] words2 = new string[count];
+    int j = 0;
+    for (int i = 0; i < words.Length; i++)
+    {
+        string word = words[i];
+        if (word.Length <= 3)
+        {
+            words2[j] = word;
+            j++;
+        }
+
+    }
+   
+    return words2;
 }
+var words2 = GetLesserThenThree(words);
+Console.WriteLine(string.Join(",", words2));
