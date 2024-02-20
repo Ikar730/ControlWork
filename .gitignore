@@ -9,3 +9,4 @@
 *.bin
 /ControlWork/ControlWork/obj
 /ControlWork/.vs/ControlWork/FileContentIndex
+/ControlWork/ControlWork/bin/Debug/net8.0
