@@ -18,5 +18,7 @@
 * И добавим, найденые строки длиной *меньше трех char* в новый массив.
 * Возвращаем полученный массив.
 * На этом завершаем создание метода *GetLesserThenThree*.
- 
+ ---
+
+ # Блок-схема:
  ![Ссылка!](https://github.com/Ikar730/ControlWork/blob/6bfa557d01bd553f20674cea4aeab3a94cc9ffd9/ControlWork.png)
