@@ -19,3 +19,4 @@
 * Возвращаем полученный массив.
 * На этом завершаем создание метода *GetLesserThenThree*.
  
+ [Ссылка!](https://github.com/Ikar730/ControlWork/blob/6bfa557d01bd553f20674cea4aeab3a94cc9ffd9/ControlWork.png)
